@@ -74,7 +74,7 @@ def print_stream(stream):
                 print(f"\n🔧 Tool Result: {last_message.content}")
         print("-" * 50)
 
-inputs={"messages":[HumanMessage(content="What is 123 plus 456?")]}
+inputs={"messages":[HumanMessage(content="what is 123 + 786? and what is your age?")]}
 print("\n" + "="*50)
 print("Starting ReAct Agent")
 print("="*50)
